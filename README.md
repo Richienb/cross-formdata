@@ -19,7 +19,7 @@ new FormData()
 //=> FormData { append: [Function], set: [Function], has: [Function], ... }
 
 // Global patch (to support external modules).
-globalThis.FormData =.FormData;
+globalThis.FormData = FormData;
 ```
 
 ## API
