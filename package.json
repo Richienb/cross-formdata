@@ -1,8 +1,8 @@
 {
-    "name": "the-module",
+    "name": "cross-formdata",
     "version": "0.0.0",
-    "description": "My awesome module.",
-    "repository": "https://github.com/Richienb/the-module.git",
+    "description": "Cross-platform FormData support.",
+    "repository": "https://github.com/Richienb/cross-formdata.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
     "license": "MIT",
     "main": "index.js",
@@ -11,14 +11,20 @@
         "index.d.ts"
     ],
     "engines": {
-        "node": ">=8"
+        "node": ">=6"
     },
     "scripts": {
         "lint": "xo",
         "test": "yarn lint && ava"
     },
     "keywords": [],
-    "dependencies": {},
+    "dependencies": {
+        "browser-or-node": "^1.2.1",
+        "env-crosser": "^1.0.0",
+        "form-data": "^3.0.0",
+        "formdata-node": "^1.8.1",
+        "formdata-polyfill": "^3.0.19"
+    },
     "devDependencies": {
         "ava": "^2.1.0",
         "eslint-config-richienb": "^0.2.2",

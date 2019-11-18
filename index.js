@@ -1,7 +1,12 @@
 "use strict"
 
-module.exports = (input, { postfix = "rainbows" } = {}) => {
-    if (typeof input !== "string") throw new TypeError(`Expected a string, got ${typeof input}`)
+const BrowserFormData = require("formdata-polyfill")
+const NodeFormData = require("formdata-node")
+const envCrosser = require("env-crosser")
 
-    return `${input} & ${postfix}`
-}
+module.exports = envCrosser({
+    browser: BrowserFormData,
+    node: NodeFormData,
+    worker: BrowserFormData,
+    fallback: undefined,
+})

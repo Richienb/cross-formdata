@@ -1,41 +1,27 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# Cross FormData [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/cross-formdata/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/cross-formdata)
 
-My awesome module.
+Cross-platform FormData support.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/cross-formdata.png)](https://npmjs.com/package/cross-formdata)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install cross-formdata
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const FormData = require("cross-formdata");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+new FormData()
+//=> FormData { append: [Function], set: [Function], has: [Function], ... }
+
+// Global patch (to support external modules).
+globalThis.FormData =.FormData;
 ```
 
 ## API
 
-### theModule(input, options?)
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+### FormData extends [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
