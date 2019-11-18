@@ -19,9 +19,7 @@
     },
     "keywords": [],
     "dependencies": {
-        "browser-or-node": "^1.2.1",
         "env-crosser": "^1.0.0",
-        "form-data": "^3.0.0",
         "formdata-node": "^1.8.1",
         "formdata-polyfill": "^3.0.19"
     },
