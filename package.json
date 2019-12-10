@@ -20,7 +20,7 @@
     "keywords": [],
     "dependencies": {
         "env-crosser": "^1.0.0",
-        "formdata-node": "^1.8.1",
+        "formdata-node": "^2.0.0",
         "formdata-polyfill": "^3.0.19"
     },
     "devDependencies": {
