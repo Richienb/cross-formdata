@@ -1,6 +1,6 @@
 {
     "name": "cross-formdata",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Cross-platform FormData support.",
     "repository": "https://github.com/Richienb/cross-formdata.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
