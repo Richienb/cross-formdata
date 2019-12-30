@@ -6,30 +6,36 @@
     "author": "Richie Bendall <richiebendall@gmail.com>",
     "license": "MIT",
     "main": "index.js",
+    "browser": "browser.js",
     "files": [
         "index.js",
-        "index.d.ts"
+        "index.d.ts",
+        "browser.js"
     ],
     "engines": {
-        "node": ">=6"
+        "node": ">=10"
     },
     "scripts": {
         "lint": "xo",
         "test": "yarn lint && ava"
     },
-    "keywords": [],
+    "keywords": [
+        "formdata",
+        "cross",
+        "isomorphic",
+        "cross-platform"
+    ],
     "dependencies": {
-        "env-crosser": "^1.0.0",
-        "formdata-node": "^2.0.0",
+        "formdata-node": "^2.0.1",
         "formdata-polyfill": "^3.0.19"
     },
     "devDependencies": {
-        "ava": "^2.1.0",
-        "eslint-config-richienb": "^0.2.2",
+        "ava": "^2.4.0",
+        "eslint-config-richienb": "^0.2.3",
         "xo": "^0.25.3"
     },
     "resolutions": {
-        "eslint": "^6.6.0"
+        "eslint": "^6.8.0"
     },
     "xo": {
         "extends": "richienb/node"
