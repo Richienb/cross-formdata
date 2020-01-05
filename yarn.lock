@@ -1922,9 +1922,9 @@ for-in@^1.0.2:
   integrity sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=
 
 formdata-node@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/formdata-node/-/formdata-node-2.0.1.tgz#92486202bcd146fd895ad5cd8492b310dc1ad5dd"
-  integrity sha512-bZ74E1B7gh4LhFurvtgIa9xMKTc/9rO0ZtFWUbVohfzlydXN325wjJY+CuCecHVmGMzychVg3O5jFgwfG4eCRA==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/formdata-node/-/formdata-node-2.1.0.tgz#bc7803f701170666846418921c8b9fb9ee48ef85"
+  integrity sha512-CnnnN2OICKs+qyybHU2bAobkj8OSeRJD/mSqkzbMHtTVDF0WMhbi/VtuKCQF4LHCqSKqENFzrs3rwKNW2dm2lQ==
   dependencies:
     "@babel/runtime" "7.7.7"
     mime-types "2.1.25"
